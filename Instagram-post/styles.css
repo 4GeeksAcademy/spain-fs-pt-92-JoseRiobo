@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    max-width: 100%;
+    height: auto;
+   margin-left: 5px;
+
+
+}
+.landing-page{
+
+    width: 100%;
+    height: 100%;
+}
+.header{
+    display: flex;
+    
+}
+.postingMenu{
+    padding-right: 60px;
+    padding-top: 10px;
+    gap:25px;
+}
+
+.iconName{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.posts{
+    justify-content: center;
+
+}
+.imgTitle{
+    font-weight: bold;
+    font-size: 15px;
+}
+.imgDate{
+    font-size: 10px;
+    text-align: end;
+}
+.imgBottom{
+    font-size: 11px;
+}
+.imgLikes{
+    font-weight: bold;
+}
+.postedImg img{
+    position: relative;
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
+.squareImg img{
+    width: 100%; 
+    aspect-ratio: 1 / 1;
+}

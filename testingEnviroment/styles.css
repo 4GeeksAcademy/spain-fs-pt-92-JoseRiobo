@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    max-width: 100%;
+    height: auto;
+
+}
+.landing-page{
+
+}
+.header{
+    display: flex;
+}
+.postingMenu{
+    
+    gap:5px;
+   
+    padding-right: 60px;
+    padding-top: 10px;
+    gap:25px;
+}
+
+.iconName{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.posts{
+    justify-content: center;
+
+}
+
+.single-column .col { 
+    display: flex;
+    flex:100%;
+    max-width: 100%;
+    justify-content: center;
+
+}
+.three-column .col { 
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    gap: 15px;
+}
