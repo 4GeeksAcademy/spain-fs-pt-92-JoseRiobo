@@ -13,18 +13,19 @@ body{
 }
 .header{
     display: flex;
+    padding-top: 10px;
     
 }
 .postingMenu{
-    padding-right: 60px;
-    padding-top: 10px;
+    
+    
     gap:25px;
 }
 
 .iconName{
     display: flex;
-    padding-left: 50px;
-    padding-top: 10px;
+    padding-left: px;
+    padding-top: px;
 }
 .posts{
     justify-content: center;
